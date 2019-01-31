@@ -9,7 +9,7 @@
  *************************************  global variables
  */
 
-var posenetServerIP = "192.168.2.7";    // the beauty of websockets is,
+var posenetServerIP = "172.17.17.85";    // the beauty of websockets is,
                                         // that you can have the server
                                         // running on another computer
                                         // in that case, just put the ip here
