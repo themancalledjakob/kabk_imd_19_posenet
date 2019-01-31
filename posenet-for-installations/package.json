@@ -1,0 +1,37 @@
+{
+  "name": "posenet-for-installations",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "clang-format": "^1.2.4",
+    "concurrently": "^3.6.1",
+    "serve": "^9.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.0.1"
+  },
+  "scripts": {
+    "setup": "yarn && cd client && yarn && cd ../server && yarn",
+    "build-client": "cd client && npm run build",
+    "start-client": "cd client && npm start",
+    "build-server": "cd server && npm run build",
+    "start-server": "cd server && npm start",
+    "start": "npm run start-client & npm run start-server",
+    "download-models": "cd client && npm run download-models",
+    "distribute-server": "cd server && npm run distribute",
+    "distribute-client": "cd client && npm run distribute",
+    "build": "npm run build-client && npm run build-server",
+    "distribute": "npm run distribute-server && npm run distribute-client",
+    "build-and-distribute": "npm run build && npm run distribute"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oveddan/posenet-offline-websocket.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oveddan/posenet-offline-websocket/issues"
+  },
+  "homepage": "https://github.com/oveddan/posenet-offline-websocket#readme"
+}
