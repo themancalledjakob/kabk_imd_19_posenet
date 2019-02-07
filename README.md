@@ -1,7 +1,15 @@
 # kabk_imd_19_posenet
 repository for detecting people through webcam and distribute their data via websockets
 
-# 
+# PoseNet setup
+- download this repository or clone it
+- open terminal
+- type `cd ` (don't forget the space at the end)
+- drag and drop the folder `kabk_imd_19_posenet/posenet-for-installations/` in the terminal
+- hit enter
+- type `yarn setup`
+- wait until finished
+
 
 # Unity setup
 
@@ -30,6 +38,11 @@ If you're on a Windows computer also install:
 
 If you're on a Mac also install:
 `Mac Build Support`
+
+When installing Visual studio it asks you to install workloads, select:
+- `.NET desktop development`
+- `Desktop development with C++`
+- `Universal Windows Platform development`
 
 # Unity usage
 
