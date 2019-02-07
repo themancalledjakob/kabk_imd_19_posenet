@@ -44,6 +44,7 @@ repository for detecting people through webcam and distribute their data via web
 - open a new terminal
 - type `cd ` (don't forget the space at the end)
 - drag and drop the folder `kabk_imd_19_posenet/generic-server.js/` in the terminal
+- hit `enter`
 - type `node generic-server.js`
 - hit `enter`
 
