@@ -5,7 +5,7 @@ repository for detecting people through webcam and distribute their data via web
 
 # Unity setup
 
-You need to download Unity3D:
+You need to download Unity3D Community (free):
 https://unity3d.com/get-unity/download
 
 And you also need an editor for the code.
