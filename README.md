@@ -109,6 +109,5 @@ download this repository or clone it, if you didn't already do it
 - open Unity
 - open the folder `kabk_imd_19_posenet/unityExamples/unityWebsockets/` in Unity
 
-#Troubleshooting
-
-- 
+# Troubleshooting FAQ
+- let me know when you run into errors or troubles! I will put here a FAQ :-)
