@@ -55,6 +55,7 @@ repository for detecting people through webcam and distribute their data via web
 - click connect
 - click close
 
+# Web usage
 ## tryout the example!
 - open a new terminal
 - type `cd ` (don't forget the space at the end)
