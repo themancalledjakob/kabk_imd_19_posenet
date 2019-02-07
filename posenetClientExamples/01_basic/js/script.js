@@ -9,7 +9,7 @@
  *************************************  global variables
  */
 
-var posenetServerIP = "192.168.2.7";    // the beauty of websockets is,
+var posenetServerIP = "192.168.1.107";    // the beauty of websockets is,
                                         // that you can have the server
                                         // running on another computer
                                         // in that case, just put the ip here
@@ -35,11 +35,12 @@ var middleY = 360;
 // here the magic part, we receive the poses!
 
 exampleSocket.onmessage = function (event) {
-    const poses = JSON.parse(event.data).poses;
+    const data = JSON.parse(event.data);
+    const poses = data.poses;
     // we only check the first pose
     // because this is the basic example
     firstPose = poses[0];
-    console.log(firstPose);
+    console.log(data);
     // our center point is the nose, because that is visible most of the time and it is in the center
     var center = firstPose.keypoints[SkeletonDefinitions.Nose];
     // now let's apply that to calues we use for our rectangle
