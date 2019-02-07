@@ -1,6 +1,16 @@
 # kabk_imd_19_posenet
 repository for detecting people through webcam and distribute their data via websockets
 
+# PoseNet preparation Mac
+- open terminal
+- install brew (http://brew.sh) type `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- hit `enter`
+- wait
+- type `brew update`
+- hit `enter`
+- type `brew install yarn`
+- hit `enter`
+
 # PoseNet setup
 - download this repository or clone it
 - open terminal
@@ -29,11 +39,13 @@ repository for detecting people through webcam and distribute their data via web
 - toggle `active`
 - always keep this tab in focus!
 
+
 - open a new terminal
 - type `cd ` (don't forget the space at the end)
 - drag and drop the folder `kabk_imd_19_posenet/generic-server.js/` in the terminal
 - type `node generic-server.js`
 - hit `enter`
+
 
 - open a new terminal
 - type `cd ` (don't forget the space at the end)
