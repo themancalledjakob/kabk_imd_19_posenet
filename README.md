@@ -25,6 +25,7 @@ repository for detecting people through webcam and distribute their data via web
 - wait until finished without errors, if there are errors, type the same command again (it depends on your internet connection...)
 
 # PoseNet usage
+## run the posenet camera tracker
 - open a new terminal
 - type `cd ` (don't forget the space at the end)
 - drag and drop the folder `kabk_imd_19_posenet/posenet-for-installations/` in the terminal
@@ -39,14 +40,22 @@ repository for detecting people through webcam and distribute their data via web
 - toggle `active`
 - always keep this tab in focus!
 
-
+## run a websocket server
 - open a new terminal
 - type `cd ` (don't forget the space at the end)
 - drag and drop the folder `kabk_imd_19_posenet/generic-server.js/` in the terminal
 - type `node generic-server.js`
 - hit `enter`
 
+## connect posenet camera tracker to websocket server
+- open the broswer with the posenet camera tracker
+- click on the leftmost icon (the wifi-screenish thing)
+- fill in host `localhost`
+- fill in port `8080`
+- click connect
+- click close
 
+## tryout the example!
 - open a new terminal
 - type `cd ` (don't forget the space at the end)
 - drag and drop the folder `kabk_imd_19_posenet/posenetClientExamples/` in the terminal
