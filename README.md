@@ -8,15 +8,19 @@ repository for detecting people through webcam and distribute their data via web
 - drag and drop the folder `kabk_imd_19_posenet/posenet-for-installations/` in the terminal
 - hit enter
 - type `yarn setup`
+- hit `enter`
 - wait until finished
 - type `yarn download-models`
+- hit `enter`
 - wait until finished without errors, if there are errors, type the same command again (it depends on your internet connection...)
 
 # PoseNet usage
 - open a new terminal
 - type `cd ` (don't forget the space at the end)
 - drag and drop the folder `kabk_imd_19_posenet/posenet-for-installations/` in the terminal
+- hit `enter`
 - type `yarn start`
+- hit `enter`
 - wait until browser opens and you can see the default site
 - click on the camera icon
 - select your camera
@@ -29,11 +33,13 @@ repository for detecting people through webcam and distribute their data via web
 - type `cd ` (don't forget the space at the end)
 - drag and drop the folder `kabk_imd_19_posenet/generic-server.js/` in the terminal
 - type `node generic-server.js`
+- hit `enter`
 
 - open a new terminal
 - type `cd ` (don't forget the space at the end)
 - drag and drop the folder `kabk_imd_19_posenet/posenetClientExamples/` in the terminal
 - type `php -S localhost:9999`
+- hit `enter`
 - open `localhost:9999/01_basic/` in a new browser window
 
 
