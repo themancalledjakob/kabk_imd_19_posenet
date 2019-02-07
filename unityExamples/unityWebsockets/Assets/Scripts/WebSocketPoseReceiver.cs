@@ -81,7 +81,7 @@ public class WebSocketPoseReceiver : MonoBehaviour {
     // https://docs.unity3d.com/Manual/VariablesAndTheInspector.html
     // the websocket server ip
     // if the server is on your own computer, just use "localhost"
-    public string websocketServerIp = "192.168.1.107";
+    public string websocketServerIp = "localhost";
     // the websocket server port
     public string websocketServerPort = "8080";
 

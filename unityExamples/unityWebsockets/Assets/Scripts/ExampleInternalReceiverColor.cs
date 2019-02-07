@@ -3,9 +3,9 @@ using System.Collections;
 using System;
 using System.Collections.Generic;
 
-public class ExampleInternalReceiver : MonoBehaviour
+public class ExampleInternalReceiverColor : MonoBehaviour
 {
-    public ExampleInternalReceiver()
+    public ExampleInternalReceiverColor()
     {
     }
 
