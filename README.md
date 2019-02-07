@@ -24,3 +24,10 @@ If you're on a Windows computer also install:
 
 If you're on a Mac also install:
 `Mac Build Support`
+
+# Unity usage
+
+download this repository or clone it
+
+- open Unity
+- open the folder `kabk_imd_19_posenet/unityExamples/unityWebsockets/` in Unity
