@@ -62,7 +62,8 @@ repository for detecting people through webcam and distribute their data via web
 - type `cd ` (don't forget the space at the end)
 - drag and drop the folder `kabk_imd_19_posenet/posenetClientExamples/` in the terminal
 - hit `enter`
-- type `php -S localhost:9999`
+- on a mac/linux type: type `php -S localhost:9999`
+- on a windows type: type `python -m SimpleHTTPServer 9999`
 - hit `enter`
 - open `localhost:9999/01_basic/` in a new browser window
 
