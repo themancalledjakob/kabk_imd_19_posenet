@@ -21,11 +21,12 @@ var SkeletonDefinitions = Object.freeze({
     RightElbow:8,
     LeftWrist:9,
     RightWrist:10,
-    ReftHip:11,
+    LeftHip:11,
     RightHip:12,
     LeftKnee:13,
     RightKnee:14,
-    LeftAnkle:15
+    LeftAnkle:15,
+    RightAnkle:16
 });
 
 function Enu(thing) {
