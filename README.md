@@ -11,6 +11,10 @@ repository for detecting people through webcam and distribute their data via web
 - type `brew install yarn`
 - hit `enter`
 
+# PoseNet preparation Windows
+- install python (e.g. 3.7, but try different versions if it doesn't work)
+- add python path to system path (google this, it's explained on python website)
+
 # PoseNet setup
 - download this repository or clone it
 - open terminal
@@ -62,8 +66,9 @@ repository for detecting people through webcam and distribute their data via web
 - type `cd ` (don't forget the space at the end)
 - drag and drop the folder `kabk_imd_19_posenet/posenetClientExamples/` in the terminal
 - hit `enter`
-- on a mac/linux type: type `php -S localhost:9999`
-- on a windows type: type `python -m SimpleHTTPServer 9999`
+- on a mac/linux type: `php -S localhost:9999`
+- on a windows type: `python -m SimpleHTTPServer 9999`
+- on a windows alternatively type: `python -m http.server 9999`
 - hit `enter`
 - open `localhost:9999/01_basic/` in a new browser window
 
