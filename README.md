@@ -116,7 +116,7 @@ download this repository or clone it, if you didn't already do it
 - open the folder `kabk_imd_19_posenet/unityExamples/unityWebsockets/` in Unity
 
 # Troubleshooting
-## you cannot run the posenet camera tracker
+## you cannot run the posenet camera tracker.
 When you run the posenet camera with `yarn start`, you get an error that something is already running on port 3000.
 Check the whole error message for the PID number of the process blocking this port.
 
@@ -126,5 +126,8 @@ for example:
 `kill -9 67832`
 
 then try again. Should you have trouble with this, a simple reboot will fix it as well.
+
+## you can run everything, you get no errors, but somehow the examples do not react on the camera.
+Probably you have the posenet camera tracker running in a hidden tab. The posenet camera tracker has(!) to be in focus a.k.a. visible, otherwise it's execution is paused and nothing is happening.
 
 - let me know when you run into other errors or troubles! I will put here a FAQ :-)
