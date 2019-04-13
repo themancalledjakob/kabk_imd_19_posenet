@@ -115,5 +115,16 @@ download this repository or clone it, if you didn't already do it
 - open Unity
 - open the folder `kabk_imd_19_posenet/unityExamples/unityWebsockets/` in Unity
 
-# Troubleshooting FAQ
-- let me know when you run into errors or troubles! I will put here a FAQ :-)
+# Troubleshooting
+## you cannot run the posenet camera tracker
+When you run the posenet camera with `yarn start`, you get an error that something is already running on port 3000.
+Check the whole error message for the PID number of the process blocking this port.
+
+then type in the terminal: `kill -9 <PID number>`
+for example: 
+
+`kill -9 67832`
+
+then try again. Should you have trouble with this, a simple reboot will fix it as well.
+
+- let me know when you run into other errors or troubles! I will put here a FAQ :-)
