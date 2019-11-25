@@ -56,7 +56,7 @@ repository for detecting people through webcam and distribute their data via web
 - open the broswer with the posenet camera tracker
 - click on the leftmost icon (the wifi-screenish thing)
 - fill in host `localhost`
-- fill in port `8080`
+- fill in port `9090`
 - click connect
 - click close
 

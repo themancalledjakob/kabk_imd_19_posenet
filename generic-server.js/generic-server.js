@@ -2,7 +2,7 @@
 // Optional. You will see this name in eg. 'ps' or 'top' command
 process.title = 'node-imd-generic';
 // Port where we'll run the websocket server
-var webSocketsServerPort = 8080;
+var webSocketsServerPort = 9090;
 // websocket and http servers
 var webSocketServer = require('websocket').server;
 var http = require('http');

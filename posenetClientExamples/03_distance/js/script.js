@@ -16,7 +16,7 @@ var posenetServerIP = "localhost";    // the beauty of websockets is,
                                         // if you want to use the same,
                                         // just do "localhost"
 
-var exampleSocket = new WebSocket("ws://" + posenetServerIP + ":8080");
+var exampleSocket = new WebSocket("ws://" + posenetServerIP + ":9090");
 
 var smoothing = 0.95;
 

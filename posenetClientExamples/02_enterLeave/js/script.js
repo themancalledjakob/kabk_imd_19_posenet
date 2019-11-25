@@ -16,7 +16,7 @@ var posenetServerIP = "172.17.17.85";    // the beauty of websockets is,
                                         // if you want to use the same,
                                         // just do "localhost"
 
-var exampleSocket = new WebSocket("ws://" + posenetServerIP + ":8080");
+var exampleSocket = new WebSocket("ws://" + posenetServerIP + ":9090");
 
 // store the amount of people in a global variable
 // so it's possible to check if someone entered or left
