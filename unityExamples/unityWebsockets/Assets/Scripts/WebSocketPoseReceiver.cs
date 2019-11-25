@@ -83,7 +83,7 @@ public class WebSocketPoseReceiver : MonoBehaviour {
     // if the server is on your own computer, just use "localhost"
     public string websocketServerIp = "localhost";
     // the websocket server port
-    public string websocketServerPort = "8080";
+    public string websocketServerPort = "9090";
 
     [Range(0.00001f, 0.99999f)]
     public float smoothing = 0.80f;
