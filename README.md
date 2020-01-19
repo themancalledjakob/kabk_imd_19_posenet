@@ -1,6 +1,10 @@
 # kabk_imd_19_posenet
 repository for detecting people through webcam and distribute their data via websockets
 
+slightly outdated.
+Consider: https://github.com/tensorflow/tfjs-models/tree/master/posenet
+or: https://github.com/oveddan/posenet-for-installations
+
 # PoseNet preparation Mac
 - open terminal
 - install brew (http://brew.sh) type `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
