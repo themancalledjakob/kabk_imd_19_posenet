@@ -1,7 +1,8 @@
 # kabk_imd_19_posenet
 repository for detecting people through webcam and distribute their data via websockets
 
-slightly outdated.
+**quite outdated... I probably won't update this for a while**
+
 Consider: https://github.com/tensorflow/tfjs-models/tree/master/posenet
 or: https://github.com/oveddan/posenet-for-installations
 
