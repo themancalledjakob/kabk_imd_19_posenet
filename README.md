@@ -3,6 +3,27 @@ repository for detecting people through webcam and distribute their data via web
 
 **quite outdated... I probably won't update this for a while**
 
+**DO NOT USE THIS**
+check this instead: https://learn.ml5js.org/#/reference/posenet
+
+**DO NOT USE THIS**
+**DO NOT USE THIS**
+**DO NOT USE THIS**
+**DO NOT USE THIS**
+**DO NOT USE THIS**
+**DO NOT USE THIS**
+**DO NOT USE THIS**
+**DO NOT USE THIS**
+**DO NOT USE THIS**
+**DO NOT USE THIS**
+**DO NOT USE THIS**
+**DO NOT USE THIS**
+**DO NOT USE THIS**
+
+This repository only exists for historical purposes, not even nostalgia.
+
+
+
 Consider: https://github.com/tensorflow/tfjs-models/tree/master/posenet
 or: https://github.com/oveddan/posenet-for-installations
 
